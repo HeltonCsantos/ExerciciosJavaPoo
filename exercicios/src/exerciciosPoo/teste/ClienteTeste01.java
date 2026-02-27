@@ -8,6 +8,12 @@ public class ClienteTeste01 {
         Cliente cliente2 = new Cliente("Fabio");
         Cliente cliente3 = new Cliente("Carlos");
 
+        Cliente[] clientes = {cliente1, cliente2, cliente3};
+
+        for (Cliente cliente : clientes) {
+            cliente.imprime();
+        }
+
         Cliente.exibirTotalClientes();
 
     }

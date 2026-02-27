@@ -19,7 +19,6 @@ public class Cliente {
 
     public void imprime(){
         System.out.println("Nome: " + this.nomeCliente);
-        System.out.println("Total de clientes: " + totalClientes);
     }
 
     public String getNomeCliente() {
