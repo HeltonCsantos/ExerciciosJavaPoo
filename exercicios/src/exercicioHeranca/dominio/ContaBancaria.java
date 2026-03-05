@@ -1,4 +1,4 @@
-package exerciciosPoo.exercicioHeranca.dominio;
+package exercicioHeranca.dominio;
 
 public class ContaBancaria {
     protected String titular;
@@ -15,9 +15,12 @@ public class ContaBancaria {
         this.saldo = saldo;
     }
 
-    public void imprime(){
-        System.out.println("Nome do titular: " + this.titular);
-        System.out.println("Saldo: " + this.saldo);
+    @Override
+    public String toString() {
+        return "ContaBancaria{" +
+                "titular='" + titular + '\'' +
+                ", saldo=" + saldo +
+                '}';
     }
 
     public void sacar(double valor){

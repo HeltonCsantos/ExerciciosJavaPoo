@@ -1,4 +1,4 @@
-package exerciciosPoo.exercicioHeranca.dominio;
+package exercicioHeranca.dominio;
 
 public class ContaPoupanca extends ContaBancaria{
     private double taxaRendimento;
@@ -9,10 +9,12 @@ public class ContaPoupanca extends ContaBancaria{
     }
 
     @Override
-    public void imprime(){
-        super.imprime();
-        System.out.println("Taxa de rendimento: " + this.taxaRendimento);
-        System.out.println("-----------------------------");
+    public String toString() {
+        return "ContaPoupanca{" +
+                "taxaRendimento=" + taxaRendimento +
+                ", titular='" + titular + '\'' +
+                ", saldo=" + saldo +
+                '}';
     }
 
     public void aplicarRendimento(){

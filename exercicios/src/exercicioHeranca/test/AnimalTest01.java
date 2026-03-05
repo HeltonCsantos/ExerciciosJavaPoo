@@ -1,7 +1,7 @@
-package exerciciosPoo.exercicioHeranca.test;
+package exercicioHeranca.test;
 
-import exerciciosPoo.exercicioHeranca.dominio.CachorroExer2;
-import exerciciosPoo.exercicioHeranca.dominio.GatoExer2;
+import exercicioHeranca.dominio.CachorroExer2;
+import exercicioHeranca.dominio.GatoExer2;
 
 public class AnimalTest01 {
     public static void main(String[] args) {

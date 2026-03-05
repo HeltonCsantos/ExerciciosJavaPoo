@@ -1,6 +1,6 @@
-package exerciciosPoo.exercicioHeranca.test;
+package exercicioHeranca.test;
 
-import exerciciosPoo.exercicioHeranca.dominio.FuncionarioExer1;
+import exercicioHeranca.dominio.FuncionarioExer1;
 
 public class FuncionarioTest01 {
 

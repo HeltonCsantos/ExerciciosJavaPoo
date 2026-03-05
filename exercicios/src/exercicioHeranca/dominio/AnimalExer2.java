@@ -1,4 +1,4 @@
-package exerciciosPoo.exercicioHeranca.dominio;
+package exercicioHeranca.dominio;
 
 public class AnimalExer2 {
     protected String nome;

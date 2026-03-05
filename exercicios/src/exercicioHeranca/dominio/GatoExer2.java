@@ -1,4 +1,4 @@
-package exerciciosPoo.exercicioHeranca.dominio;
+package exercicioHeranca.dominio;
 
 public class GatoExer2 extends AnimalExer2{
 

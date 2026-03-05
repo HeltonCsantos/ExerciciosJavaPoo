@@ -1,4 +1,4 @@
-package exerciciosPoo.exercicioHeranca.dominio;
+package exercicioHeranca.dominio;
 
 public class FuncionarioExer1 extends PessoaExer1 {
     private double salario;
